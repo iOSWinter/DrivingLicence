@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  DrivingLicence
+//
+//  Created by WinterChen on 16/9/14.
+//  Copyright © 2016年 win. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//#define AppKey @"171f65c2eb100"
+#define AppKey @"18b94dffb0d58"
+#define AdMobBannerID @"ca-app-pub-5510915524085951/3585782224"
+
+#import <MobAPI/MobAPI.h>
+#import "FAFProgressHUD+FAF.h"
+#import "WinDataCode.h"
+#import "SubjectOneModel.h"
+#import "MJExtension.h"
+#import "UIView+SetRect.h"
+#import "SubjectDataBaseTool.h"
+#import "AppDelegate.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
